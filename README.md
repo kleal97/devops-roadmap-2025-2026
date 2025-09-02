@@ -1,23 +1,40 @@
-# 🐧 Linux y Automatización
+# 🚀 DevOps Roadmap 2025
+
+Este repositorio documenta mi aprendizaje y evolución en el mundo **DevOps / Platform Engineering**, siguiendo la hoja de ruta de [roadmap.sh/devops](https://roadmap.sh/devops).
 
 ## 🎯 Objetivo
-Aprender a moverme con soltura en Linux, administrar procesos, usuarios, permisos y trabajar con **scripts de automatización**.
+Extender mi conocimiento hasta **febrero 2025**, construyendo paso a paso las habilidades clave de un ingeniero DevOps:
+- Linux y scripting
+- Redes y servidores web
+- Contenerización con Docker
+- Orquestación (Kubernetes, introducción)
+- Infraestructura como Código (Terraform, Ansible)
+- CI/CD pipelines
+- Monitoreo y observabilidad (Prometheus, Grafana)
 
-## 📚 Temas a cubrir
-- Comandos básicos (`ls`, `cat`, `grep`, `awk`, `sed`, `find`, `tar`, etc.)
-- Administración de procesos y servicios (`ps`, `top`, `systemctl`)
-- Redes en Linux (`ss`, `netstat`, `iptables`, `traceroute`, `ping`)
-- Usuarios y permisos (`chmod`, `chown`, `sudo`)
-- Cron jobs para tareas programadas
-- Scripting con **Bash** y **Python**
+## 📂 Estructura del repositorio
+- **01_linux/** → Scripts de automatización, gestión de procesos y red, backups, cron jobs.  
+- **02_webservers/** → Configuración de Nginx/Apache, proxies inversos, balanceadores de carga.  
+- **03_docker/** → Ejercicios con Docker y Docker Compose, app Python dockerizada.  
+- **04_ci-cd/** → Pipelines con GitHub Actions / GitLab CI, despliegues con Terraform/Ansible.  
+- **05_monitoring/** → Configuración de Prometheus + Grafana, dashboards y alertas.  
 
-## 🛠️ Proyectos
-1. **Backup automático de logs** con Python + cron.  
-2. Script que liste procesos más pesados de CPU/memoria.  
-3. Monitoreo de disponibilidad de hosts en la red (mini "ping sweep").
+## 📅 Cronograma
+- **Septiembre** → Linux + Python + Git  
+- **Octubre** → Servidores y redes aplicadas  
+- **Noviembre** → Docker y contenerización  
+- **Diciembre** → IaC + CI/CD  
+- **Enero** → Monitoreo y observabilidad  
+- **Febrero** → Proyecto final integrador y documentación  
 
-## ✅ Aprendizajes esperados
-- Comodidad en CLI de Linux.  
-- Uso de scripts para automatización.  
-- Conexión de conocimientos de redes (CCNA) con la práctica en servidores.  
+## 📌 Proyecto final
+Al cierre, desplegaré una **plataforma DevOps personal**:
+- App dockerizada
+- Pipeline de CI/CD automatizado
+- Infraestructura creada con Terraform
+- Monitoreo con Grafana/Prometheus
+- Documentación completa
 
+---
+
+🛠️ Cada carpeta tendrá su propio **README** explicando los conceptos, pasos y aprendizajes.
